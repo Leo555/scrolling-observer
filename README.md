@@ -1,4 +1,10 @@
+
+[![NPM version](https://img.shields.io/npm/v/scrolling-observer.svg?style=flat)](https://www.npmjs.org/package/scrolling-observer)
+
+[![Chocolatey](https://img.shields.io/chocolatey/dt/scriptcs.svg)](https://www.npmjs.com/package/scrolling-observer)
+
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Leo555/isScrolling/blob/master/LICENSE)
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Leo555/isScrolling/pulls)
 
 
