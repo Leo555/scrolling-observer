@@ -57,7 +57,7 @@ export default class ScrollingObserver {
         function step () {
             _this.scrollTime = Date.now()
             const rectObject1 = element.getBoundingClientRect()
-            if (rectObject0.top !== rectObject1.top) {
+            if (rectObject0.top !== rectObject1.top || rectObject0.left !== rectObject1.left) {
                 rectObject0 = rectObject1
                 raf = window.requestAnimationFrame(step)
             } else {
@@ -80,7 +80,7 @@ export default class ScrollingObserver {
         scrollTimer = setInterval(() => {
             const rectObject1 = element.getBoundingClientRect()
             this.scrollTime = Date.now()
-            if (rectObject0.top === rectObject1.top) {
+            if (rectObject0.top === rectObject1.top && rectObject0.left === rectObject1.left) {
                 this.isScrolling = false
                 clearInterval(scrollTimer)
             }
