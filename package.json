@@ -5,6 +5,7 @@
   "main": "dist/scrolling-observer.min.js",
   "dependencies": {},
   "scripts": {
+    "publish": "npm version patch",
     "build": "webpack --config build/webpack.conf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

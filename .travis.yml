@@ -5,7 +5,7 @@ node_js:
 cache: npm
 
 install: 
-  -  npm install 
+  -  npm install
 
 jobs:
   include:
