@@ -1,3 +1,12 @@
+language: node_js
+node_js:
+  - stable
+
+cache: yarn
+
+install: 
+  -  npm instgall 
+
 jobs:
   include:
     - stage: npm release
