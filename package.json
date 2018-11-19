@@ -2,7 +2,7 @@
   "name": "scrolling-observer",
   "version": "1.0.2",
   "description": "A Simple JS library that detects mobile app is scrolling or not.",
-  "main": "dist/index.js",
+  "main": "dist/scrolling-observer.min.js",
   "dependencies": {},
   "scripts": {
     "build": "webpack --config build/webpack.conf.js",
