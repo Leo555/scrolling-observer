@@ -1,0 +1,28 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            -webkit-overflow-scrolling: touch;
+            width: 100%;
+            height: 8000px;
+            background: linear-gradient(to bottom, #9ED110, #50B517, #179067, #476EAF, #9f49ac, #CC42A2, #FF3BA7, #FF5800, #FF8100, #FEAC00, #FFCC00, #EDE604);
+        }
+    </style>
+</head>
+<body>
+<script src="../dist/isScrolling.min.js"></script>
+<script>
+    let scroll = isScrolling.default() // 初始化
+    setInterval(() => {
+        if (scroll.isScrolling) {
+            console.log(scroll.isScrolling, new Date().getTime())
+        }
+    }, 50)
+</script>
+</body>
+</html>
