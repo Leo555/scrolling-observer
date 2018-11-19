@@ -7,7 +7,7 @@
 
 A Simple JS library that detects mobile app is scrolling.
 
-
+To solve JavaScript Scroll Event Delay，for example [Bootstrap issue #16202](https://github.com/twbs/bootstrap/issues/16202)。
 
 ## Example
 
@@ -32,10 +32,19 @@ A Simple JS library that detects mobile app is scrolling.
 $ npm install --save 
 ```
 
-Use this in your es6 script:
+JavaScript
 
 ```javascript
+import scroll from 'scrolling-observer'
 
+// init
+scroll()
+
+// check
+console.log(scroll().isScrolling)
+
+// destroy
+scroll().destroy()
 ```
 
 ## License
