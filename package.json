@@ -1,5 +1,5 @@
 {
-  "name": "isScrolling",
+  "name": "scrolling-observer",
   "version": "1.0.0",
   "description": "A Simple JS library that detects mobile app is scrolling.",
   "main": "src/index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leo555/isScrolling.git"
+    "url": "git+https://github.com/Leo555/scrolling-observer.git"
   },
   "keywords": [
     "scroll",
@@ -33,7 +33,7 @@
   "author": "lizhen55521@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Leo555/isScrolling/issues"
+    "url": "https://github.com/Leo555/scrolling-observer/issues"
   },
-  "homepage": "https://github.com/Leo555/isScrolling#readme"
+  "homepage": "https://github.com/Leo555/scrolling-observer#readme"
 }
