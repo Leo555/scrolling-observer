@@ -2,10 +2,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Leo555/isScrolling/pulls)
 
 
-
 # scrolling-observer
 
-A Simple JS library that detects mobile app is scrolling.
+A Simple JS library that detects mobile app is scrolling or not.
 
 To solve JavaScript Scroll Event Delay，for example [Bootstrap issue #16202](https://github.com/twbs/bootstrap/issues/16202)。
 
@@ -15,21 +14,21 @@ To solve JavaScript Scroll Event Delay，for example [Bootstrap issue #16202](ht
 
 
 ```html
-<script src="../dist/isScrolling.min.js"></script>
+<script src="../dist/sscrolling-observer.min.js"></script>
 <script>
-    let scroll = isScrolling.default() // 初始化
-    setInterval(() => {
-        if (scroll.isScrolling) {
-            console.log(scroll.isScrolling, new Date().getTime())
-        }
-    }, 50)
+  var scroll = window['scrolling-observer'].default() // 初始化
+  setInterval(() => {
+    if (scroll.isScrolling) {
+      console.log(scroll.isScrolling, new Date().getTime())
+    }
+  }, 50)
 </script>
 ```
 
 ### npm: 
 
 ```sh
-$ npm install --save 
+$ npm install --save
 ```
 
 JavaScript

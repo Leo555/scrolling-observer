@@ -15,9 +15,9 @@
     </style>
 </head>
 <body>
-<script src="../dist/isScrolling.min.js"></script>
+<script src="../dist/scrolling-observer.min.js"></script>
 <script>
-    let scroll = isScrolling.default() // 初始化
+    var scroll = window['scrolling-observer'].default() // 初始化
     setInterval(() => {
         if (scroll.isScrolling) {
             console.log(scroll.isScrolling, new Date().getTime())

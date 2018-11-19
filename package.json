@@ -1,7 +1,7 @@
 {
   "name": "scrolling-observer",
-  "version": "1.0.1",
-  "description": "A Simple JS library that detects mobile app is scrolling.",
+  "version": "1.0.2",
+  "description": "A Simple JS library that detects mobile app is scrolling or not.",
   "main": "dist/index.js",
   "dependencies": {},
   "scripts": {
