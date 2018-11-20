@@ -19,8 +19,8 @@ export default class ScrollingObserver {
      * 初始化 touch 事件
      */
     initEvents () {
-        window.addEventListener('touchmove', this.onWindowTouchMove.bind(this))
-        window.addEventListener('touchend', this.onWindowTouchEnd.bind(this))
+        window.addEventListener('touchmove', this.onWindowTouchMove.bind(this), true)
+        window.addEventListener('touchend', this.onWindowTouchEnd.bind(this), true)
     }
 
     /**
