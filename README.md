@@ -20,7 +20,7 @@ To solve JavaScript Scroll Event Delay，for example [Bootstrap issue #16202](ht
 ```html
 <script src="../dist/sscrolling-observer.min.js"></script>
 <script>
-  var scroll = window['scrolling-observer'].default() // 初始化
+  var scroll = window['scrolling-observer'].default() // init
   setInterval(() => {
     if (scroll.isScrolling) {
       console.log(scroll.isScrolling, new Date().getTime())
